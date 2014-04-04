@@ -22,7 +22,7 @@ public class Attempt implements ExcerciseInterface {
 	}
 
 	@Override
-	public void setSmallerThanValidator(int min) {
+	public void setSmallerThanValidator(int max) {
 		// TODO Auto-generated method stub
 		
 	}
@@ -41,7 +41,7 @@ public class Attempt implements ExcerciseInterface {
 
 	@Override
 	public Stream<Integer> getNumbersSmallerThanAndMultipliedBy(int max,
-			int multiple) {
+			int factor) {
 		// TODO Auto-generated method stub
 		return null;
 	}
