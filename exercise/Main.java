@@ -112,6 +112,7 @@ public class Main {
 			System.out.println("Inconsistency detected");
 			System.out.println("Solution total: " + solutionTotal);
 			System.out.println("Attempt total: " + attemptTotal);
+			System.exit(0);
 		}
 	}
 	
