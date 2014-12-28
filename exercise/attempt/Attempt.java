@@ -2,12 +2,12 @@ package exercise.attempt;
 
 import java.util.stream.Stream;
 
-import exercise.ExcerciseInterface;
-import exercise.ExcerciseSet;
+import exercise.ExerciseInterface;
+import exercise.ExerciseSet;
 
-public class Attempt implements ExcerciseInterface {
+public class Attempt implements ExerciseInterface {
 
-	private ExcerciseSet<Integer> set;
+	private ExerciseSet<Integer> set;
 	
 	@Override
 	public void addListenerToSet() {
@@ -59,7 +59,7 @@ public class Attempt implements ExcerciseInterface {
 	}
 
 	@Override
-	public void setCollection(ExcerciseSet<Integer> set) {
+	public void setCollection(ExerciseSet<Integer> set) {
 		this.set = set;
 	}
 }

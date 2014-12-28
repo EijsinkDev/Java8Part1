@@ -13,12 +13,12 @@ public class Main {
 	public static void main(String[] args) {
 		
 		//Create set
-		ExcerciseSet<Integer> solutionCollection = new ExcerciseSet<>();
-		ExcerciseSet<Integer> attemptCollection = new ExcerciseSet<>();
+		ExerciseSet<Integer> solutionCollection = new ExerciseSet<>();
+		ExerciseSet<Integer> attemptCollection = new ExerciseSet<>();
 
 		//Create interface
-		ExcerciseInterface solution = new Solution();
-		ExcerciseInterface attempt = new Attempt();
+		ExerciseInterface solution = new Solution();
+		ExerciseInterface attempt = new Attempt();
 		solution.setCollection(solutionCollection);
 		attempt.setCollection(attemptCollection);
 

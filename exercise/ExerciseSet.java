@@ -6,13 +6,13 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.function.Predicate;
 
-public class ExcerciseSet<T> implements Set<T> {
+public class ExerciseSet<T> implements Set<T> {
 
 	private Set<T> delegate;
 	private Set<Listener<T>> addListeners;
 	private Predicate<T> validator;
 
-	public ExcerciseSet() {
+	public ExerciseSet() {
 		delegate = new HashSet<>();
 		addListeners = new HashSet<>();
 		validator = null;
@@ -73,7 +73,7 @@ public class ExcerciseSet<T> implements Set<T> {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		ExcerciseSet other = (ExcerciseSet) obj;
+		ExerciseSet other = (ExerciseSet) obj;
 		if (delegate == null) {
 			if (other.delegate != null)
 				return false;
